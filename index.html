@@ -56,40 +56,109 @@
 
 .header{
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("bg1.jpg");
+    background-repeat:no-repeat;
+	background-size:cover;
+	margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
     width: 100%;
     height: 100%;
-    padding-left: 100px;
-}
-hr{
+    padding: 200px;
+   }
+.body hr{
     background: orangered;
     border: 1px solid orangered;
     width: 18%;
 }
-.contact{
-			border-radius:10px;
-			color:black;
-			background-color:white;
-		    align-items: center;
-            justify-content: center;
-            margin-left: 300px;
-            width: 50%;
-            padding-bottom: 30px;
-		}
-		font{
-			color:white; 
-			position:absolute;
-			right:650px;
-			top:110px;
-		}
-        .populer h6{
+.populer h6{
             
-            color: #DC143C;
-        }
-		.populer p:hover{
-           
-            color: #DC143C;
-        }
+ color: #DC143C;
+}
+.populer p{
+    font-size: 0.9rem;
+    font-weight: 500;
+ color: gray;
+}
        
+ @media screen and (max-width:747px){
+  .header{
+  margin: 0px;
+  padding: 0px;
+}
+.header h1{
+    padding: 0px;
+}
+
+}
+#a1:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a2:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+
+#a3:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+
+#a4:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a5:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a6:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a7:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a8:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a9:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#a10:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b1:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b2:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+
+#b3:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+
+#b4:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b5:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b6:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b7:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b8:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b9:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+#b10:hover{
+    box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+}
+.populer .a:hover{
+    color: #DC143C;
+}
 </style>
     
 
@@ -139,7 +208,7 @@ hr{
       </nav>
    
       <div class="header">
-          <div class="text-center text-white" style="padding: 250px;">
+          <div class="text-center text-white">
           <h1 style="font-weight: bolder; font-size: 60px; padding-bottom: 30px;">UNIVERSITY DUNIA</h1>
           <h5>INDIA'S TOP EDUCATION PORTAL</h5> 
           </div>
@@ -156,283 +225,220 @@ hr{
     </p>
    
 
-    <div class="row" style="padding-left: 100px; margin-bottom: 50px;">
-
-        <div class="col-md-2 m-2 content" style="background-color: white; padding: 30px; ">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 m-2" id="a1" style="background-color: white; padding: 30px; ">
             <img src="a1.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AGRICULTURE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2"  id="a2" style="background-color: white; padding: 30px;">
             <img src="a2.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ARCHITECTURE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a3"  style="background-color: white; padding: 30px;">
             <img src="a3.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ARTS</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a4"  style="background-color: white; padding: 30px;">
             <img src="a4.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AVINATION</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a5"  style="background-color: white; padding: 30px;">
             <img src="a5.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AYRUVEDIC</a></h5>
         </div>
+       <div class="col-md-1"></div>
        
         
     </div>
 
 
-    <div class="row" style="padding-left: 100px; margin-bottom: 50px;">
-       
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px; ">
+    <div class="row" style=" margin-bottom: 50px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 m-2" id="a6"  style="background-color: white; padding: 30px; ">
             <img src="a6.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">COMMERCE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a7"  style="background-color: white; padding: 30px;">
             <img src="a7.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">EDUCATION</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a8"  style="background-color: white; padding: 30px;">
             <img src="a8.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ENGINEERING</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a9"  style="background-color: white; padding: 30px;">
             <img src="a9.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">DESIGN</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="a10"  style="background-color: white; padding: 30px;">
             <img src="a10.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">DISTANCE EDUCATION</a></h5>
         </div>
-        
+        <div class="col-md-1"></div>
     </div>
 
 
 
    
-    <div class="row" style="padding-left: 100px; margin-bottom: 50px;">
-
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px; ">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 m-2" id="b1"  style="background-color: white; padding: 30px; ">
             <img src="a1.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AGRICULTURE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b2"  style="background-color: white; padding: 30px;">
             <img src="a2.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ARCHITECTURE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b3"  style="background-color: white; padding: 30px;">
             <img src="a3.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ARTS</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b4"  style="background-color: white; padding: 30px;">
             <img src="a4.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AVINATION</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b5"  style="background-color: white; padding: 30px;">
             <img src="a5.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">AYRUVEDIC</a></h5>
         </div>
-       
+        <div class="col-md-1"></div>
         
     </div>
 
 
-    <div class="row" style="padding-left: 100px; margin-bottom: 50px;">
-       
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px; ">
+    <div class="row" style=" margin-bottom: 50px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 m-2" id="b6"  style="background-color: white; padding: 30px; ">
             <img src="a6.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">COMMERCE</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b7"  style="background-color: white; padding: 30px;">
             <img src="a7.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">EDUCATION</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b8"  style="background-color: white; padding: 30px;">
             <img src="a8.jpg">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">ENGINEERING</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b9"  style="background-color: white; padding: 30px;">
             <img src="a9.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">DESIGN</a></h5>
         </div>
-        <div class="col-md-2 m-2" style="background-color: white; padding: 30px;">
+        <div class="col-md-2 m-2" id="b10"  style="background-color: white; padding: 30px;">
             <img src="a10.png">
             <h5><a href="#" style="padding: 10px; font-size: 1.2rem; text-decoration:none;">DISTANCE EDUCATION</a></h5>
         </div>
-        
+        <div class="col-md-1"></div>
     </div>
     </div>
     </div>
 
 
-    <div class="form" style="background-color: lightgray; padding: 50px;">
-        <div class="container">
-            <h3 style="text-align: center; padding-top: 30px; font-size: 1.5rem; padding-bottom: 50px;">ENQUIRE FOR YOUR RELIABLE FUTURE @ UNIVERSITY DUNIA
-            </h3>
-            <table class="contact">
-                <tr>  
-                    <td><label style="padding: 30px;">Name:</label></td>
-                    <td style="padding-right: 30px;"><input type="text" id="fname" name="firstname" class="form-control" placeholder="first name"></td>
-                    
-                </tr>
-                <tr>
-                    <td><label style="padding: 30px;">Phone number:</label></td>
-                    <td style="padding-right: 30px;"><input type="text" id="no" name="no" class="form-control" placeholder="Phone number"></td>
-                </tr>
-                <tr>
-                    <td><label style="padding: 30px;">Select Course:</label></td>
-                    <td style="padding-right: 30px;"><input type="text" id="course" name="course" class="form-control" placeholder="Select Course"></td>
-                </tr>
-                
-                <tr>
-                    <td><label style="padding: 30px;">Select state:</label></td>
-                    <td style="padding-right: 30px;"><input type="text" id="state" name="state" class="form-control" placeholder="Select state"></td>
-                </tr>
-                <tr colspan="2" align="center">
-                    <td style="padding-bottom: 30px;"><input type="submit" class="form-control" value="Submit" style="background-color:#DC143C; color: white; width: 35%;"></td>
-                </tr>
-                 </table>
-        </div>
-    </div>
 
 
 
 
 
-    <div class="populer" style="background-color: whitesmoke; padding: 40px;">
+    <div class="populer" style="background-color: white; padding: 40px;">
 <div class="row">
-<div class="col-md-2 text-center">
-    <h6  style="padding: 20px;">POPULAR COURSES</h6>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
-    <p>B.com+LLB</p>
+<div class="col-md-12">
+    <h6>POPULAR COURSES</h6>
+    <p><span class="a">ANM</span> -<span class="a"> B.ARCH.</span> -<span class="a"> B.COM </span>-<span class="a">B.COM+B.ED.</span>
+         -<span class="a">B.COM+LLB</span> - <span class="a">B.DESIGN</span> - <span class="a">B.ED.</span> - <span class="a">B.EL.ED.</span>
+          - <span class="a">B.F.SC</span> - <span class="a">B.LIB.</span> -<span class="a"> B.P.ED.</span> - <span class="a">B.PHARM.</span> 
+          -<span class="a"> B.SC.</span> -<span class="a"> B.SC. AGRICULTURE </span> - <span class="a">B.SC.+B.ED.</span> 
+               B.TECH </span></span>-<span class="a"> B.V.SC.</span>  - <span class="a">B.VOC</span> - <span class="a">BA </span>-<span class="a"> BA+B.ED.</span> - <span class="a">BA+LLB </span>-<span class="a"> BAMS </span>
+			   - <span class="a">BBA</span> - <span class="a">BBA+LLB </span>- <span class="a">BBM </span>- <span class="a">BCA</span> -<span class="a"> BDS</span> - <span class="a">BFA </span>-<span class="a"> BHM </span>-<span class="a"> BJMC </span>- <span class="a">BMLT</span> -<span class="a"> BMM</span> -<span class="a"> BMS</span> -<span class="a"> BNYS</span> - <span class="a">BPA </span>-<span class="a"> BPE</span> 
+			   - <span class="a">BPT</span> - <span class="a">BSW</span> -<span class="a"> BTC </span>- <span class="a">BUMS</span> -<span class="a"> D.ARCH.</span> -<span class="a"> D.ED.</span> -<span class="a"> D.EL.ED.</span> -<span class="a"> D.LITT.</span> - <span class="a">D.N.B</span> - <span class="a">D.P.ED.</span> - <span class="a">D.PHARM.</span>
+			   -<span class="a"> DCA</span> -<span class="a"> DIPLOMA</span> -<span class="a"> DIPLOMA IN AGRICULTURE </span>-<span class="a"> DIPLOMA IN ENGINEERINGv</span> - <span class="a">DM </span>- <span class="a">DMLT</span> - <span class="a">GNM</span>
+			   - <span class="a">ITI</span> - <span class="a">JBT </span>-<span class="a"> LLB</span> - <span class="a">LLM</span> -<span class="a"> M.ARCH.</span> - <span class="a">M.COM</span> - <span class="a">M.DESIGN</span> - <span class="a">M.ED.</span> -<span class="a"> M.F.SC</span> -<span class="a"> M.LIB.</span> -<span class="a"> M.P.ED. </span>
+			   - <span class="a">M.PHARM.</span> - <span class="a">M.PHIL.</span> -<span class="a"> M.SC.</span> -<span class="a"> M.TECH </span>- <span class="a">M.V.SC.</span> - <span class="a">M.VOC </span>-<span class="a"> MA </span>-<span class="a"> MBA</span> - <span class="a">MBBS </span>-<span class="a"> MCA</span> -<span class="a"> MCH</span> -</span>
+			  <span class="a"> MD</span> -<span class="a"> MDS </span>-<span class="a"> MFA</span> -<span class="a"> MHM </span>-<span class="a"> MJMC</span> - <span class="a">MMC</span> - <span class="a">MPA </span>- <span class="a">MPH</span> -<span class="a"> MPT </span>-<span class="a"> MSW</span> -<span class="a"> NTT </span>- <span class="a">PARAMEDICAL</span> - <span class="a">PGDBM </span>
+			   - <span class="a">PGDCA</span> -<span class="a"> PGDM</span> -<span class="a"> PH.D.</span> -<span class="a"> VLDA</span>
 
+</p><hr>
+    
     
 </div>
-<div class="col-md-2 text-center" style="border-left: 1px solid black;">
-    <h6 style="padding: 20px;">POPULAR STREAM    </h6>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-    <p>ARCHITECTURE</p>
-  
 </div>
-<div class="col-md-2 text-center" style="border-left: 1px solid black;">
-    <h6 style="padding: 20px;">STATE    </h6>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-    <p>madhya pradesh</p>
-
-  
-</div>
-<div class="col-md-2 text-center" style="border-left: 1px solid black;">
-    <h6 style="padding: 20px;">TOP CITIES    </h6>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-    <p>Indore</p>
-
-  
-</div>
-<div class="col-md-2 text-center" style="border-left: 1px solid black;">
-    <h6 style="padding: 20px;">APPROVED    </h6>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-    <p>AICTE</p>
-
-  
-</div>
-
-<div class="col-md-2 text-center" style="border-left: 1px solid black;">
-    <h6 style="padding: 20px;">INSTITUTE    </h6>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-    <p>Private ITI</p>
-
-    <p>Private ITI</p>
-  
+<div class="row">
+<div class="col-md-12">
+    <h6>POPULAR STREAM    </h6>
+   <p><span class="a">AGRICULTURE </span>-<span class="a"> ARCHITECTURE</span> -<span class="a">ARTS</span> -<span class="a"> AVIATION </span>-<span class="a"> AYURVEDIC </span>- 
+       <span class="a">COMMERCE </span>- <span class="a">COMPUTER APPLICATIONS</span> -<span class="a"> DENTAL</span> - <span class="a">DESIGN </span>-<span class="a"> DISTANCE EDUCATION </span>-
+    <span class="a">DOCTOR OF PHILOSOPHY </span>-<span class="a"> EDUCATION</span> - <span class="a">ENGINEERING</span> -<span class="a"> FIRE & SAFETY </span>-<span class="a">FISHERIES SCIENCE</span> -
+        <span class="a">HOTEL MANAGEMENT</span> -<span class="a"> LAW</span> -<span class="a"> MANAGEMENT</span> -<span class="a">MASS</span> -
+        <span class="a">COMMUNICATION</span> -<span class="a"> MASTER OF PHILOSOPHY </span>- <span class="a">MEDICAL</span> - <span class="a">NURSING </span>-<span class="a"> PARAMEDICAL</span> -
+             <span class="a">PHARMACY</span> -<span class="a"> POLYTECHNIC</span> -<span class="a"> SCIENCE </span>-<span class="a"> SKILL DEVELOPMENT</span> - 
+        <span class="a">SOCIAL WORK</span> -<span class="a"> VETERINARY SCIENCE</span> - <span class="a">VOCATIONAL COURSES</span>
+</p><hr>
 </div>
 </div>
+<div class="row">
+    <div class="col-md-12">
+   <h6>STATE    </h6>
+    <p><span class="a">ANDAMAN AND NICOBAR ISLANDS</span> -<span class="a"> ANDHRA PRADESH</span> -<span class="a">ARUNACHAL PRADESH </span>-<span class="a" >ASSAM </span>- <span class="a">BIHAR </span>-<span class="a"> CHANDIGARH</span> -<span class="a" >CHHATTISGARH</span> - <span class="a">DADRA AND NAGAR HAVELI</span> -
+        <span class="a"> DAMAN AND DIU</span> -<span class="a"> DELHI </span>-<span class="a"> GOA</span> - <span class="a">GUJARAT</span> -<span class="a"> HARYANA</span> - <span class="a">HIMACHAL PRADESH</span> -<span class="a"> JAMMU AND KASHMIR </span>- <span class="a">JHARKHAND</span> - <span class="a">KARNATAKA</span> - <span class="a">KERALA </span>-<span class="a"> LAKSHADWEEP </span>-
+            <span class="a"> MADHYA PRADESH</span> -<span class="a"> MAHARASHTRA</span> - <span class="a">MANIPUR </span>- <span class="a">MEGHALAYA </span>- <span class="a">MIZORAM</span> -<span class="a"> NAGALAND</span> -<span class="a"> ODISHA</span> -<span class="a"> PUDUCHERRY </span>- <span class="a">PUNJAB</span> -<span class="a" >RAJASTHAN</span> - <span class="a">SIKKIM </span>-<span class="a" >TAMIL NADU </span>
+          - <span class="a">TELANGANA</span> -<span class="a" >TRIPURA</span> - <span class="a">UTTAR PRADESH</span> - <span class="a">UTTARAKHAND</span> -<span class="a"> WEST BENGAL</span>
+    </p>
+
+    <hr>
 </div>
+</div>
+
+<div class="row"></span>
+    <div class="col-md-12">
+    <h6>TOP CITIES    </h6>
+    <p> <span class="a">AGRA</span>  -  <span class="a">AHMEDABAD </span> - <span class="a"> BANGALORE</span>  - <span class="a"> BHOPAL</span>  -  <span class="a">CHENNAI</span>  - <span class="a"> DELHI </span> -  <span class="a">GOA </span> -  <span class="a">HYDERABAD</span>  -  <span class="a">INDORE</span>  -  <span class="a">JAIPUR-RAJASTHAN</span>  - <span class="a"> KANPUR-UTTAR PRADESH</span>  -  <span class="a">KOLKATA</span>  
+        -  <span class="a">LUCKNOW</span>  -  <span class="a">MUMBAI</span>  - <span class="a"> NAGPUR</span>  -  <span class="a">PATNA</span>  -  <span class="a">PUNE</span>  -  <span class="a">RANCHI</span>  -  <span class="a">SURAT</span>  - <span class="a"> VISAKHAPATNAM-ANDHRA PRADESH</span> 
+    </p>
+
+    <hr>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+    <h6>APPROVED    </h6>
+    <p><span class="a">AICTE </span> -<span class="a"> AIU</span>  -<span class="a"> BCI </span> -<span class="a"> COA </span> -<span class="a"> DCI</span>  - <span class="a">DEB </span>
+	-<span class="a"> DGET</span>  - <span class="a">INC</span>  - <span class="a">MCI</span>  - <span class="a">MHRD</span>  - <span class="a">NAAC </span> 
+	-<span class="a"> NCTE</span>  - <span class="a">NCVT</span>  - <span class="a">PCI</span>  - <span class="a">UGC</span>  -<span class="a"> VCI</span> 
+    </p>
+
+    <hr>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+    <h6>INSTITUTE    </h6>
+    <p><span class="a">CENTRAL UNIVERSITY</span> - <span class="a">STATE GOVERNMENT UNIVERSITY </span>- <span class="a">DEEMED UNIVERSITY</span> - <span class="a">PRIVATE UNIVERSITY </span>-
+<span class="a">	GOVERNMENT COLLEGE </span>- <span class="a">PRIVATE COLLEGE </span>-<span class="a"> SELF-FINANCED COLLEGE </span>- <span class="a">GOVERNMENT ITI</span> - <span class="a">PRIVATE ITI</span>
+    </p>
+
+    <hr>
+</div>
+</div>
+
+</div>
+</div>
+
 <div class="footer" style="background: #483D8B; padding: 20px;">
     <div class="container text-center text-white">
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px;">Home</a></span>
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px; border-left:1px solid white;">Abouts</a></span>
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px; border-left:1px solid white;">Privacy Policy</a></span>
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px; border-left:1px solid white;">Term & Condition</a></span>
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px; border-left:1px solid white;">Contacts</a></span>
-        <span><a href="#" style="color: white; text-decoration:none; padding: 15px; border-left:1px solid white;">Our Team</a></span>
-    </div>
+        <div class="row">
+           <div class="col-md-2"></div>
+            <div class="col-md-1"><a href="#" style="color: white; text-decoration:none;">Home</a></div>
+            <div class="col-md-1"><a href="#" style="color: white; text-decoration:none;"><p style=" border-left:1px solid white;">Abouts</p></a></div>
+            <div class="col-md-2"><a href="#" style="color: white; text-decoration:none;"><p style=" border-left:1px solid white;">Privacy Policy</p></a></div>
+            <div class="col-md-2"><a href="#" style="color: white; text-decoration:none;"><p style=" border-left:1px solid white;">Term & Condition</p></a></div>
+            <div class="col-md-1"><a href="#" style="color: white; text-decoration:none;"><p style=" border-left:1px solid white;">Contacts</p></a></div>
+            <div class="col-md-2"><a href="#" style="color: white; text-decoration:none;"><p style=" border-left:1px solid white;">Our Team</p></a></div>
+            <div class="col-md-1"></div>
+       </div>
+</div>
 </div>
     </body>
     </html>
